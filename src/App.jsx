@@ -1,16 +1,9 @@
 import React from 'react'
-
+import { Todo } from './Todo'
 const App = () => {
   return (
     <div>
-      <ul>
-        <li>
-          Rajkumar
-        </li>
-        <li>
-          Arulkumar
-        </li>
-      </ul>
+     <Todo></Todo>
     </div>
   )
 }
